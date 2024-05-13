@@ -14,8 +14,8 @@
         compatible = "zmk,combos";
 
         escc {
-            bindings = <&kp ESC>;
-            key-positions = <17 18>;
+            bindings = <&kp RA(F4)>;
+            key-positions = <47 4>;
             layers = <0>;
         };
     };
