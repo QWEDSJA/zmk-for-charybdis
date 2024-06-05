@@ -38,12 +38,12 @@
 
         layer_1 {
             bindings = <
-&kp ESC  &kp F1  &kp F2  &kp F3    &kp RA(F4)    &kp F5             &kp F6    &kp F7        &kp F8     &kp F9  &kp F10  &kp DEL
-&none    &none   &none   &none     &none         &none              &none     &none         &trans     &none   &none    &trans
-&none    &none   &none   &none     &kp UP_ARROW  &none              &none     &kp UP_ARROW  &none      &trans  &trans   &trans
-&none    &none   &none   &kp LEFT  &kp DOWN      &kp RIGHT_ARROW    &kp LEFT  &kp DOWN      &kp RIGHT  &none   &none    &trans
-                         &kp ESC   &none         &none              &none     &none
-                                   &trans        &none              &none
+&kp ESC  &kp F1  &kp F2  &kp F3    &kp RA(F4)    &kp F5             &kp F6             &kp F7        &kp F8     &kp F9  &kp F10  &kp DEL
+&none    &none   &none   &none     &none         &none              &none              &none         &trans     &none   &none    &trans
+&none    &none   &none   &none     &kp UP_ARROW  &none              &none              &kp UP_ARROW  &none      &trans  &trans   &trans
+&none    &none   &none   &kp LEFT  &kp DOWN      &kp RIGHT_ARROW    &kp LEFT           &kp DOWN      &kp RIGHT  &none   &none    &trans
+                         &mkp MB2  &none         &none              &kp C_VOL_UP       &none
+                                   &trans        &none              &kp C_VOLUME_DOWN
             >;
         };
 
