@@ -25,12 +25,12 @@
 
         Base {
             bindings = <
-&kp GRAVE       &kp N1  &kp N2  &kp N3            &kp N4     &kp N5           &kp N6         &kp N7     &kp N8     &kp N9   &kp N0     &kp INSERT
-&kp TAB         &kp Q   &kp W   &kp E             &kp R      &kp T            &kp Y          &kp U      &kp I      &kp O    &kp P      &kp BACKSLASH
-&kp CAPSLOCK    &kp A   &kp S   &kp D             &kp F      &kp G            &kp H          &kp J      &kp K      &kp L    &kp SEMI   &kp APOS
-&kp LEFT_SHIFT  &kp Z   &kp X   &kp C             &kp V      &lt 2 B          &lt 2 N        &kp M      &kp COMMA  &kp DOT  &kp SLASH  &kp RIGHT_ALT
-                                &kp LEFT_CONTROL  &kp SPACE  &lt 2 ENTER      &lt 1 ENTER    &kp SPACE
-                                                  &mo 1      &kp BACKSPACE    &kp BACKSPACE
+&kp GRAVE         &kp N1  &kp N2  &kp N3    &kp N4     &kp N5           &kp N6         &kp N7     &kp N8     &kp N9   &kp N0     &kp INSERT
+&kp TAB           &kp Q   &kp W   &kp E     &kp R      &kp T            &kp Y          &kp U      &kp I      &kp O    &kp P      &kp BACKSLASH
+&kp LEFT_SHIFT    &kp A   &kp S   &kp D     &kp F      &kp G            &kp H          &kp J      &kp K      &kp L    &kp SEMI   &kp APOS
+&kp LEFT_CONTROL  &kp Z   &kp X   &kp C     &kp V      &lt 2 B          &lt 2 N        &kp M      &kp COMMA  &kp DOT  &kp SLASH  &kp RIGHT_ALT
+                                  &mkp MB1  &kp SPACE  &lt 2 ENTER      &lt 1 ENTER    &kp SPACE
+                                            &mo 1      &kp BACKSPACE    &kp BACKSPACE
             >;
 
             trackball-bindings = <&tmv_coarse>;
@@ -38,12 +38,12 @@
 
         layer_1 {
             bindings = <
-&kp ESC          &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &kp F6    &kp F7        &kp F8     &kp F9  &kp F10  &kp DEL
-&kp LS(PAGE_UP)  &none   &none   &none   &none   &none     &none     &none         &trans     &none   &none    &trans
-&kp PAGE_DOWN    &none   &none   &none   &none   &none     &none     &kp UP_ARROW  &none      &trans  &trans   &trans
-&none            &none   &none   &none   &none   &none     &kp LEFT  &kp DOWN      &kp RIGHT  &none   &none    &trans
-                                 &none   &none   &none     &none     &none
-                                         &trans  &none     &none
+&kp ESC  &kp F1  &kp F2  &kp F3    &kp RA(F4)    &kp F5             &kp F6    &kp F7        &kp F8     &kp F9  &kp F10  &kp DEL
+&none    &none   &none   &none     &none         &none              &none     &none         &trans     &none   &none    &trans
+&none    &none   &none   &none     &kp UP_ARROW  &none              &none     &kp UP_ARROW  &none      &trans  &trans   &trans
+&none    &none   &none   &kp LEFT  &kp DOWN      &kp RIGHT_ARROW    &kp LEFT  &kp DOWN      &kp RIGHT  &none   &none    &trans
+                         &kp ESC   &none         &none              &none     &none
+                                   &trans        &none              &none
             >;
         };
 
