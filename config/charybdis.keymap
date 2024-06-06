@@ -14,10 +14,15 @@
     combos {
         compatible = "zmk,combos";
 
-        escc {
+        raltf4 {
             bindings = <&kp RA(F4)>;
             key-positions = <47 4>;
             layers = <0>;
+        };
+
+        laltf4 {
+            bindings = <&kp LA(F4)>;
+            key-positions = <4 53>;
         };
     };
 
@@ -39,7 +44,7 @@
 
         layer_1 {
             bindings = <
-&kp ESC   &kp F1  &kp F2  &kp F3     &kp RA(F4)    &kp F5             &kp F6    &kp F7        &kp F8     &kp F9  &kp F10  &kp INSERT
+&kp ESC   &kp F1  &kp F2  &kp F3     &kp F4        &kp F5             &kp F6    &kp F7        &kp F8     &kp F9  &kp F10  &kp INSERT
 &none     &none   &none   &none      &none         &none              &none     &none         &trans     &none   &none    &trans
 &kt CLCK  &none   &none   &none      &kp UP_ARROW  &none              &none     &kp UP_ARROW  &none      &trans  &trans   &trans
 &none     &none   &none   &kp LEFT   &kp DOWN      &kp RIGHT_ARROW    &kp LEFT  &kp DOWN      &kp RIGHT  &none   &none    &trans
